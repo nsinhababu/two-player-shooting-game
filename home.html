@@ -8,15 +8,46 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="banner-container">
-        <img class="first-image" src="./img/player1.png" alt="" />
-        <img class="second-image" src="./img/player2.png" alt="" />
+    <div class="wrapper">
+      <div class="container">
+        <div class="banner-container">
+          <img class="first-image" src="./img/player1.png" alt="" />
+          <img class="second-image" src="./img/player2.png" alt="" />
+        </div>
+        <div class="btn-container">
+          <a class="start-game" href="./game.html">Start Game</a>
+        </div>
       </div>
-      <div class="btn-container">
-        <a class="start-game" href="./game.html">Start Game</a>
+      <div class="game-info-container">
+        <h3>Game Info</h3>
+        <div class="game-info-wrapper">
+          <div>
+            1. Each player has a total health of 100. <br />
+            2. If health of one player is 0 then the other one wins the match
+            and the winner gets a point.
+            <br />
+            3. A tournament consists of five such matches. 4. Whoever the wins
+            <br />
+            most matches wins the tournament.
+          </div>
+          <div>
+            <h2>Player1</h2>
+            <p>
+              Left Arrow : Move left. <br />
+              Right Arrow : Move right. <br />
+              Down Arrow : Shoot.
+            </p>
+          </div>
+          <div>
+            <h2>Player2</h2>
+            <p>
+              Key A : Move left. <br />
+              Key D : Move right. <br />
+              Key S : Shoot.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <script src="./home.js"></script>
   </body>
 </html>
