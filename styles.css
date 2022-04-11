@@ -24,12 +24,15 @@ body {
   margin-top: 50px;
 }
 .game-info-container {
+  background-color: rgba(119, 136, 153, 0.375);
+
   width: 800px;
   height: fit-content;
   padding: 10px 50px;
 }
 .game-info-container:hover {
   padding: 10px 0;
+  width: fit-content;
 }
 .game-info-container:hover > .game-info-wrapper {
   display: flex;
